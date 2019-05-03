@@ -1,0 +1,441 @@
+/* Inline Hints */
+/*#FFFAD5*/
+/*#FFD34E*/
+/* placeholders */
+/* editors */
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+/* Add on demand actions for main content structure +/- [X] [Y] [Z] */
+/* hints */
+/*topic           {.important-hint();}*/
+topic {
+  position: relative;
+}
+topic:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+topic:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+topic:hover:before(5000) {
+  visibility: visible;
+}
+topic:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+topic:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+task {
+  position: relative;
+}
+task:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+task:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+task:hover:before(5000) {
+  visibility: visible;
+}
+task:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+task:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+shortdesc {
+  position: relative;
+}
+shortdesc:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+shortdesc:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+shortdesc:hover:before(5000) {
+  visibility: visible;
+}
+shortdesc:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+shortdesc:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+prolog {
+  position: relative;
+}
+prolog:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+prolog:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+prolog:hover:before(5000) {
+  visibility: visible;
+}
+prolog:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+prolog:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+section {
+  position: relative;
+}
+section:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+section:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+section:hover:before(5000) {
+  visibility: visible;
+}
+section:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+section:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+section:-oxy-hints:-oxy-delete-hints:before(202) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+section:-oxy-hints:before(202) {
+  display: block;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #55aaff;
+  content: "Section";
+}
+dl {
+  position: relative;
+}
+dl:before(5000) {
+  line-height: 1px;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 2px;
+  text-align: right;
+  right: 2px;
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[+]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, showIcon, true);
+}
+dl:-oxy-hints:before(5000) {
+  visibility: hidden;
+  content: oxy_button(action, oxy_action(name, '[-]', description, oxy_concat('See description for ', oxy_local-name()), operation, 'ro.sync.ecss.extensions.commons.operations.TogglePseudoClassOperation', arg-elementLocation, '.', icon, url('img/info16.png'), arg-name, '-oxy-hints'), transparent, true, hoverPseudoclassName, '-oxy-delete-hints', showIcon, true);
+}
+dl:hover:before(5000) {
+  visibility: visible;
+}
+dl:-oxy-hints:-oxy-hints:-oxy-delete-hints:before(201) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+dl:-oxy-hints:before(201) {
+  display: block;
+  border: 1px solid #d89e36;
+  background-color: rgba(255, 250, 213, 0.6);
+  border-radius: 8px;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem;
+  padding-right: 1.2rem;
+  content: oxy_htmlContent(href, 'hints.html', id, oxy_concat('hints', '-', oxy_local-name()), width, 100%);
+}
+/* placeholders */
+alt:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Alternate Text";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  alt:empty {
+    color: white!important;
+  }
+}
+desc:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Description";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  desc:empty {
+    color: white!important;
+  }
+}
+topic:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Topic";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  topic:empty {
+    color: white!important;
+  }
+}
+body:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Content";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  body:empty {
+    color: white!important;
+  }
+}
+title:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Title";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  title:empty {
+    color: white!important;
+  }
+}
+section > title:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Section Title";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  section > title:empty {
+    color: white!important;
+  }
+}
+shortdesc:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Short Description";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  shortdesc:empty {
+    color: white!important;
+  }
+}
+ul:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Unordered List";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  ul:empty {
+    color: white!important;
+  }
+}
+ol:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Ordered List";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  ol:empty {
+    color: white!important;
+  }
+}
+li:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Item";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  li:empty {
+    color: white!important;
+  }
+}
+dl:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Definition List";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  dl:empty {
+    color: white!important;
+  }
+}
+dlentry:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Entry";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  dlentry:empty {
+    color: white!important;
+  }
+}
+dt:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Term";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  dt:empty {
+    color: white!important;
+  }
+}
+dd:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Description";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  dd:empty {
+    color: white!important;
+  }
+}
+p:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Paragraph content";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  p:empty {
+    color: white!important;
+  }
+}
+pre:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Preformated Text";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  pre:empty {
+    color: white!important;
+  }
+}
+prolog:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Prolog Information";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  prolog:empty {
+    color: white!important;
+  }
+}
+section:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Section";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  section:empty {
+    color: white!important;
+  }
+}
+fig:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Figure";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  fig:empty {
+    color: white!important;
+  }
+}
+stentry:empty {
+  color: #555555 !important;
+  -oxy-show-placeholder: always;
+  -oxy-placeholder-content: "Cell";
+}
+@media oxygen-high-contrast-black, oxygen-dark-theme {
+  stentry:empty {
+    color: white!important;
+  }
+}

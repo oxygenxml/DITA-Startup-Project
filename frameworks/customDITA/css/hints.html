@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Project hints</title>
+        <link rel="stylesheet" type="text/css" href="hints-style.css" />
+    </head>
+    <body>
+        <h1>Hints for DITA elements</h1>
+        <h2>Topic types</h2>
+    	<h3>topic</h3>
+    	<div id="hints-topic" class="documenthint">
+    		<p>A generic DITA topic. This should be used only if your content does 
+    			not match a more specific DITA topic type, like a <b>task</b> for example.</p>
+    		<p>For more information please see <a href="http://www.oxygenxml.com">the oXygen XML Website</a>.</p>
+    	</div>
+    	<h3>task</h3>
+    	<div id="hints-task" class="documenthint">
+    		<p>A task should explain how to do a specific thing, showing the steps to take, etc...</p>
+    	</div>
+    	
+    	<h2>Topic elements</h2>
+        <h3>prolog</h3>
+        <div id="hints-prolog">
+            <p>Use the prolog section to provide meta-information using the data element.</p>
+        </div>
+    	<h3>shortdesc</h3>
+    	<div id="hints-shortdesc">
+    		<p>Use the short description to expand the title, providing additional information about
+    			the content of the topic. It should always be composed of complete sentences and
+    			form a comprehensive thought.</p>
+    	</div>
+        <h3>section</h3>
+        <div id="hints-section">
+            <p>Use sections to organize subsets of information that are directly related to a
+                topic.</p>
+        </div>
+        <h3>dl</h3>
+        <div id="hints-dl">
+            <p>Use a definition list to provide definitions for specific terms. The term is
+                specified in a definition term (<code class="element">dt</code> element) and the
+                definition is marked with a definition description (<code class="element">dd</code>
+                element).</p>
+        </div>
+    </body>
+</html>
