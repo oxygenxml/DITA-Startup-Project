@@ -28,6 +28,23 @@
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>classpath</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<String>${framework}/resources/</String>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/cssDescriptors</String>
 										</field>
 										<field name="index">
