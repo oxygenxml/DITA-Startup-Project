@@ -24,6 +24,27 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.perspectives.layout.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>perspectives.layout.info</String>
+                        <perspectivesInfo>
+                            <field name="useFixedLayout">
+                                <Boolean>true</Boolean>
+                            </field>
+                            <field name="predefinedLayout">
+                                <Boolean>false</Boolean>
+                            </field>
+                            <field name="predefinedLayoutName">
+                                <String>Advanced</String>
+                            </field>
+                            <field name="specifiedLayoutPath">
+                                <String>${pd}/layout/ditaEditing.layout</String>
+                            </field>
+                        </perspectivesInfo>
+                    </entry>
+                    <entry>
                         <String>tagless.editor.tags.display.mode</String>
                         <Integer>0</Integer>
                     </entry>
