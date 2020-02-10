@@ -4999,7 +4999,7 @@ self::*[contains(@class," map/reltable ")]][1]
 										<String>${oxygenHome}/lib/xml-apis.jar</String>
 										<String>${oxygenHome}/lib/*xerces*.jar</String>
 										<String>${oxygenHome}/lib/*saxon*9*.jar</String>
-										<String>${oxygenHome}/lib/log4j.jar</String>
+										<String>${oxygenHome}/lib/oxygen-patched-log4j.jar</String>
 										<String>${configured.ditaot.dir.url}/plugins/com.oxygenxml.dost.patches/lib/*.jar</String>
 										<String>${configured.ditaot.dir.url}/lib/*.jar</String>
 									</String-array>
