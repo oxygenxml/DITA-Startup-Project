@@ -3,4 +3,5 @@
 <map>
     <title>Reusable Content</title>
     <topicref href="reusable_components.dita"/>
+    <mapref href="reusable_keys.ditamap"/>
 </map>

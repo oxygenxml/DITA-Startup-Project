@@ -5,7 +5,7 @@
     <body>
         <p>Welcome to your first DITA project.<image href="../images/welcome.png"
                 id="image_j3n_cc1_bpb" width="100"/></p>
-        <note conref="../reusables/reusable_components.dita#reusable_notes/note_b3c_bsz_1pb"
+        <note conref="../reusables/reusable_components.dita#reusable_notes/reusable_note"
             id="note_rtg_hc1_bpb"/>
     </body>
 </topic>

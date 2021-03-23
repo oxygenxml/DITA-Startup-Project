@@ -4,7 +4,7 @@
     <title>Reusable Components</title>
     <body>
         <p>
-            <note id="note_b3c_bsz_1pb">Reusable note.</note>
+            <note id="reusable_note">Reusable note.</note>
         </p>
     </body>
 </topic>
