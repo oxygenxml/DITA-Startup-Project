@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.oxygenxml.com/ns/ccfilter/config http://www.oxygenxml.com/ns/ccfilter/config/ccConfigSchemaFilter.xsd"
+	xmlns="http://www.oxygenxml.com/ns/ccfilter/config">
+    <!-- When a list item is inserted insert also a "p" element inside it-->
+    <elementProposals path="li" insertElements="p"/>
+</config>
