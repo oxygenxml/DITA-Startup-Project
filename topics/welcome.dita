@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="welcome">
-    <title>Welcome</title>
+    <title>Welcome  <ph keyref="product"/>
+    </title>
     <body>
         <p>Welcome to your first DITA project.<image href="../images/welcome.png"
                 id="image_j3n_cc1_bpb" width="100"/></p>
