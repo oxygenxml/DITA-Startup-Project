@@ -118,6 +118,10 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/project.ditamap</String>
+                    </entry>
+                    <entry>
                         <String>spell.check.learned.words.custom.folder</String>
                         <String>${pd}/custom-settings/learned-words</String>
                     </entry>
