@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incorrect-terms>
+  <incorrect-term ignorecase="true">
+    <match>will be</match>
+    <suggestion></suggestion>
+    <message>Future tense should not be allowed</message>
+  </incorrect-term>
+</incorrect-terms>
