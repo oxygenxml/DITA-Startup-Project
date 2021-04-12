@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://www.dita-ot.org/project">
+  <context name="Project" id="project">
+    <input href="../project.ditamap"/>
+  </context>
+  
+  <deliverable name="Project to WebHelp Responsive" id="wh-responsive">
+    <context idref="project"/>
+    <output href="output"/>
+    <publication transtype="webhelp-responsive">
+      <param name="webhelp.publishing.template" href="publishing-template.zip"/>
+    </publication>
+  </deliverable>
+  
+  <deliverable name="Project to PDF" id="pdf">
+    <context idref="project"/>
+    <output href="output"/>
+    <publication transtype="pdf-css-html5">
+      <param name="pdf.publishing.template" href="publishing-template.zip"/>
+    </publication>
+  </deliverable>
+</project>
