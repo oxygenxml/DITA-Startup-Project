@@ -2,10 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Reusable Keys</title>
-    <keydef keys="product">
+    <keydef keys="project">
         <topicmeta>
             <keywords>
-                <keyword>Product Name</keyword>
+                <keyword>DITA Project</keyword>
             </keywords>
         </topicmeta>
     </keydef>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="welcome">
-    <title>Welcome  <ph keyref="product"/>
-    </title>
+    <title>My first topic</title>
     <body>
-        <p><image href="../images/welcome.png" id="image_j3n_cc1_bpb" width="100"/></p>
-        <p>Welcome to your first DITA project.</p>
+        <p>Welcome to your first <ph keyref="project"/>.</p>
+        <p>You can add images <image href="../images/welcome.png" id="image_j3n_cc1_bpb" width="100"
+            />
+        </p>
+        <p> or use reusable content</p>
         <note conref="../reusables/reusable_components.dita#reusable_notes/reusable_note"
             id="note_rtg_hc1_bpb"/>
     </body>
