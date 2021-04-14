@@ -130,7 +130,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Project to PDF - based on HTML5 &amp; CSS</String>
+                                        <String>Project to  PDF - based on HTML5 &amp; CSS</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -202,13 +202,13 @@
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen</String>
+                                            <String>${pd}/publishing/publishing-template.zip</String>
                                         </field>
                                         <field name="descriptorRelativePath">
                                             <String>oxygen-tiles.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                     </publishingTemplate>
                                 </field>
@@ -252,7 +252,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>Project to PDF - based on HTML5 &amp; CSS</String>
+                                    <String>Project to  PDF - based on HTML5 &amp; CSS</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -386,7 +386,7 @@
                                             <String>${pd}/publishing/publishing-template.zip</String>
                                         </field>
                                         <field name="descriptorRelativePath">
-                                            <String>flowers-tiles.opt</String>
+                                            <String>oxygen-tiles.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
                                             <Boolean>true</Boolean>
