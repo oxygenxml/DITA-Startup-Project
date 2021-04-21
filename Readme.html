@@ -19,7 +19,11 @@
             <li><i>oxygen-term-checker</i> - contains a <a
                     href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/terminology-checker-addon.html"
                     >terminology file</a> with a rule;</li>
-            <li><i>publishing</i> - contains all the DITA topics in the project;</li>
+            <li><i>publishing</i> - contains a <a
+                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html"
+                    >DITA-OT project file</a> and a <a
+                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/whr-publishing-template-2.html"
+                    >publishing template</a>;</li>
             <li><i>reusables</i> - contains various reusable components. For example in the topic
                 "reusable_components.dita" you can add various DITA elements like notes, paragraphs,
                 lists, list items which are reused in various places in the project. <a
@@ -72,5 +76,21 @@
             Vale rules to check for <a
                 href="https://github.com/oxygenxml/userguide/tree/master/DITA/oxygen-term-checker"
                 >common terminology problems</a>.</p>
+        <p>You can publish  the contents of the "project.ditamap" in two ways:</p>
+        <ul>
+            <li>you can open the DITA-OT project file named "publish-project.xml" and two predefined
+                publishing scenarios become available. You can read more about DITA-OT project files
+                here: <a
+                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html" 
+                    >https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html</a></li>
+            <li>you can also open the "project.ditamap" file in the DITA Maps Manager view, call the
+                "Configure Transformation Scenario(s)" dialog and in the Project section there are
+                two predefined transformation scenarios (one for WebHelp, the other for PDF) which
+                use the publishing template archived in the zip file. A useful link about creating
+                and customizing a publishing template: <a
+                    href="https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html"
+                    >https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html</a>
+            </li>
+        </ul>
     </body>
 </html>
