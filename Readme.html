@@ -4,9 +4,11 @@
         <title>Startup DITA Project</title>
     </head>
     <body>
+        <h1>Startup DITA Project</h1>
         <p>This is a sample DITA Project that imposes custom settings for DITA editing. When the
             project is open in the Oxygen Project view, it will impose a custom set of global
             options as well as an imposed custom DITA framework extension.</p>
+        <h2>Project Structure</h2>
         <p>The project contains the following folder structure:</p>
         <ul>
             <li><i>custom-settings</i> - Contains custom <a
@@ -31,6 +33,7 @@
                     >more about reusing DITA content</a>.</li>
             <li><i>topics</i> - Contains all the DITA topics in the project.</li>
         </ul>
+        <h2>Settings Saved At Project Level</h2>
         <p>Most of the preference pages in the <b>Preferences</b> folder can be saved at <a
                 href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/sharing-projects.html"
                 >project level</a>. When the project is open in the Project view, the following
@@ -47,6 +50,7 @@
                 level.</li>
             <li>The <b>DITA / Maps</b> preferences page is saved at project level.</li>
         </ul>
+        <h2>Framework Customizations</h2>
         <p>DITA editing can be customized by extending the current DITA framework customization. The
             framework extension is defined in the
                 <i>custom-settings/dita-extension/dita-extension.exf</i> <a
@@ -54,21 +58,34 @@
                 >framework script file</a>. You can add your own custom actions to the toolbars,
             menus, or contextual menus, and add, change, or remove transformation scenarios or validation
             scenarios.</p>
-        <p>You can customize the existing <a
-                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/customizing-templates.html"
-                >DITA file templates</a> by making changes to the 
-                <i>custom-settings/dita-extension/templates/</i> and
-                <i>custom-settings/dita-map-extension/templates/</i> folders.</p>
-        <p>The content completion configuration extension file
-                <i>custom-settings/dita-extension/resources/cc_config_ext.xml</i> allows you to <a
-                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/rendering-elements-cc-author.html"
-                >customize various aspects</a> of content completion. </p>
-        <p>You can add <a href="https://blog.oxygenxml.com/topics/SchematronBCs.html">custom
-                Schematron validation rules</a> in the 
-                <i>custom-settings/dita-extension/resources/customRules.sch</i> Schematron file.</p>
-        <p>You can also <a href="https://blog.oxygenxml.com/topics/customizeDITACSS.html">customize
-                the visual editing</a> by modifying the CSS
-                <i>custom-settings/dita-extension/css/custom.css</i>.</p>
+        <ul>
+            <li>
+                <p>You can customize the existing <a
+                        href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/customizing-templates.html"
+                        >DITA file templates</a> by making changes to the
+                        <i>custom-settings/dita-extension/templates/</i> and
+                        <i>custom-settings/dita-map-extension/templates/</i> folders.</p>
+            </li>
+            <li>
+                <p>The content completion configuration extension file
+                        <i>custom-settings/dita-extension/resources/cc_config_ext.xml</i> allows you
+                    to <a
+                        href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/rendering-elements-cc-author.html"
+                        >customize various aspects</a> of content completion. </p>
+            </li>
+            <li>
+                <p>You can add <a href="https://blog.oxygenxml.com/topics/SchematronBCs.html">custom
+                        Schematron validation rules</a> in the
+                        <i>custom-settings/dita-extension/resources/customRules.sch</i> Schematron
+                    file.</p>
+            </li>
+            <li>
+                <p>You can also <a href="https://blog.oxygenxml.com/topics/customizeDITACSS.html"
+                        >customize the visual editing</a> by modifying the CSS
+                        <i>custom-settings/dita-extension/css/custom.css</i>.</p>
+            </li>
+        </ul>
+        <h3>Terminology Checking</h3>
         <p>For checking terminology, you can use the Oxygen <a
                 href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/terminology-checker-addon.html?"
                 >Terminology Checker add-on</a>. You can add terminology rules to the
@@ -76,6 +93,7 @@
             Vale rules to check for <a
                 href="https://github.com/oxygenxml/userguide/tree/master/DITA/oxygen-term-checker"
                 >common terminology problems</a>.</p>
+        <h2>Publishing</h2>
         <p>You can publish the content of the "project.ditamap" in two ways:</p>
         <ul>
             <li>You can open the DITA-OT project file named "publish-project.xml" and two predefined
