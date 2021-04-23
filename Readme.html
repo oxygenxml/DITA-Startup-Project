@@ -1,113 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Startup DITA Project</title>
     </head>
     <body>
         <h1>Startup DITA Project</h1>
         <p>This is a sample DITA Project that imposes custom settings for DITA editing. When the
-            project is open in the Oxygen Project view, it will impose a custom set of global
-            options as well as an imposed custom DITA framework extension.</p>
+            project is open in the Oxygen Project view, it will impose a custom set of options as
+            well as an imposed custom DITA framework extension.</p>
         <h2>Project Structure</h2>
         <p>The project contains the following folder structure:</p>
         <ul>
             <li><i>custom-settings</i> - Contains custom <a
-                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/framework-customization-script.html"
-                    >DITA and DITA Map framework extensions</a>.</li>
-            <li><i>filters</i> - Contains <a
-                    href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/dita-ditaval-file.html"
-                    >DITAVAL Filter files</a> used to profile the DITA content when publishing.</li>
+                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/framework-customization-script.html"
+                >DITA and DITA Map framework extensions</a>.</li>
+            <li><i>filters</i> - This initially empty folder can be updated to contain <a
+                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/dita-ditaval-file.html"
+                >DITAVAL Filter files</a> used to profile the DITA content when publishing.</li>
             <li><i>images</i> - Contains images used in the DITA project.</li>
             <li><i>oxygen-term-checker</i> - Contains a <a
-                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/terminology-checker-addon.html"
-                    >terminology file</a> with an example rule.</li>
+                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/terminology-checker-addon.html"
+                >terminology file</a> with an example rule.</li>
             <li><i>publishing</i> - Contains a <a
-                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html"
-                    >DITA-OT project file</a> and a <a
-                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/whr-publishing-template-2.html"
-                    >publishing template</a>.</li>
-            <li><i>reusables</i> - Contains various reusable components. For example, in the 
-                "reusable_components.dita" topic, you can add various DITA elements such as notes, paragraphs,
-                lists, and list items that are reused in various places in the project. See <a
-                    href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/eppo-create-conref.html"
-                    >more about reusing DITA content</a>.</li>
+                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html"
+                >DITA-OT project file</a> and a <a
+                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/whr-publishing-template-2.html"
+                >publishing template</a>.</li>
+            <li><i>reusables</i> - Contains various reusable components. For example, in the
+                "reusable_components.dita" topic, you can add various DITA elements such as notes,
+                paragraphs, lists, and list items that are reused in various places in the project.
+                See <a
+                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/eppo-create-conref.html"
+                >more about reusing DITA content</a>.</li>
             <li><i>topics</i> - Contains all the DITA topics in the project.</li>
         </ul>
         <h2>Settings Saved At Project Level</h2>
         <p>Most of the preference pages in the <b>Preferences</b> folder can be saved at <a
-                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/sharing-projects.html"
-                >project level</a>. When the project is open in the Project view, the following
-            global options are imposed:</p>
+            href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/sharing-projects.html"
+            >project level</a>. When the project is open in the Project view, the following options
+            are imposed:</p>
         <ul>
             <li>The <b>Editor / Spell Check</b> preferences page is saved at project level with
                 automatic spell checking enabled.</li>
             <li>The <b>Editor / Spell Check / Dictionaries</b> preferences page is saved at project
                 level and all <a
-                    href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/learned-words.html"
-                    >learned words</a> are saved in the <i>custom-settings/learned-words/en.tdi</i>
+                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/learned-words.html"
+                >learned words</a> are saved in the <i>custom-settings/learned-words/en.tdi</i>
                 file.</li>
             <li>The <b>Editor / Edit Modes / Author</b> preferences page is saved at project
                 level.</li>
             <li>The <b>DITA / Maps</b> preferences page is saved at project level.</li>
+            <li>The <b>Document Type Association</b> preferences page disables certain framework
+                configurations like <b>DocBook 5</b> which are not useful.</li>
+            <li>The <b>Document Type Association / Locations</b> preferences page references a
+                custom framework configuration which will be described further.</li>
         </ul>
         <h2>Framework Customizations</h2>
-        <p>DITA editing can be customized by extending the current DITA framework customization. The
-            framework extension is defined in the
-                <i>custom-settings/dita-extension/dita-extension.exf</i> <a
-                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/framework-customization-script-usecases.html"
-                >framework script file</a>. You can add your own custom actions to the toolbars,
-            menus, or contextual menus, and add, change, or remove transformation scenarios or validation
+        <p>DITA editing can be customized by extending the current DITA frameworks. The framework
+            extension is defined in the <i>custom-settings/dita-extension/dita-extension.exf</i> <a
+            href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/framework-customization-script-usecases.html"
+            >framework script file</a>. You can add your own custom actions to the toolbars, menus,
+            or contextual menus, and add, change, or remove transformation scenarios or validation
             scenarios.</p>
         <ul>
             <li>
                 <p>You can customize the existing <a
-                        href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/customizing-templates.html"
-                        >DITA file templates</a> by making changes to the
-                        <i>custom-settings/dita-extension/templates/</i> and
-                        <i>custom-settings/dita-map-extension/templates/</i> folders.</p>
+                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/customizing-templates.html"
+                    >DITA file templates</a> by making changes to the
+                    <i>custom-settings/dita-extension/templates/</i> and
+                    <i>custom-settings/dita-map-extension/templates/</i> folders.</p>
             </li>
             <li>
                 <p>The content completion configuration extension file
-                        <i>custom-settings/dita-extension/resources/cc_config_ext.xml</i> allows you
-                    to <a
-                        href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/rendering-elements-cc-author.html"
-                        >customize various aspects</a> of content completion. </p>
+                    <i>custom-settings/dita-extension/resources/cc_config_ext.xml</i> allows you to
+                    <a
+                    href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/rendering-elements-cc-author.html"
+                    >customize various aspects</a> of content completion. </p>
             </li>
             <li>
                 <p>You can add <a href="https://blog.oxygenxml.com/topics/SchematronBCs.html">custom
-                        Schematron validation rules</a> in the
-                        <i>custom-settings/dita-extension/resources/customRules.sch</i> Schematron
+                    Schematron validation rules</a> in the
+                    <i>custom-settings/dita-extension/resources/customRules.sch</i> Schematron
                     file.</p>
             </li>
             <li>
                 <p>You can also <a href="https://blog.oxygenxml.com/topics/customizeDITACSS.html"
-                        >customize the visual editing</a> by modifying the CSS
-                        <i>custom-settings/dita-extension/css/custom.css</i>.</p>
+                    >customize the visual editing</a> by modifying the CSS
+                    <i>custom-settings/dita-extension/css/custom.css</i>.</p>
             </li>
         </ul>
         <h3>Terminology Checking</h3>
         <p>For checking terminology, you can use the Oxygen <a
-                href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/terminology-checker-addon.html?"
-                >Terminology Checker add-on</a>. You can add terminology rules to the
-                <i>oxygen-term-checker</i> folder. For example, the Oxygen user manual uses a set of
+            href="https://www.oxygenxml.com/doc/versions/23.0/ug-editor/topics/terminology-checker-addon.html?"
+            >Terminology Checker add-on</a>. You can add terminology rules to the
+            <i>oxygen-term-checker</i> folder. For example, the Oxygen user manual uses a set of
             Vale rules to check for <a
-                href="https://github.com/oxygenxml/userguide/tree/master/DITA/oxygen-term-checker"
-                >common terminology problems</a>.</p>
+            href="https://github.com/oxygenxml/userguide/tree/master/DITA/oxygen-term-checker"
+            >common terminology problems</a>.</p>
         <h2>Publishing</h2>
         <p>You can publish the content of the "project.ditamap" in two ways:</p>
         <ul>
-            <li>You can open the DITA-OT project file named "publish-project.xml" and two predefined
-                publishing scenarios become available. You can read more about DITA-OT project files
-                here: <a
-                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html" 
-                    >https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html</a>.</li>
-            <li>You can also open the "project.ditamap" file in the DITA Maps Manager view, invoke the
-                "Configure Transformation Scenario(s)" dialog box and in the Project section, there are
-                two predefined transformation scenarios (one for WebHelp, the other for PDF) that
-                use the publishing template archived in the zip file. Here is a useful link about creating
-                and customizing a publishing template: <a
-                    href="https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html"
-                    >https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html</a>.
+            <li>You can open the DITA-OT project file named "publish-project.xml" from the
+                <i>publishing</i> subfolder and two predefined publishing scenarios become
+                available. You can read more about DITA-OT project files here: <a
+                href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html"
+                >https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/dita_open_toolkit_project.html</a>.</li>
+            <li>You can also open the "project.ditamap" file in the DITA Maps Manager view, invoke
+                the "Configure Transformation Scenario(s)" dialog box and in the Project section,
+                there are two predefined transformation scenarios (one for WebHelp, the other for
+                PDF) that use the publishing template archived in the zip file. Here is a useful
+                link about creating and customizing a publishing template: <a
+                href="https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html"
+                >https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html</a>.
             </li>
         </ul>
     </body>
