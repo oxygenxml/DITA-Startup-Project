@@ -21,7 +21,7 @@ Only the framework saved inside {framework_file_name}.framework will have this p
       <a:xpathCondition>true()</a:xpathCondition>
       <a:arguments>
         <a:argument name="fragment">
-<ph keyref="product"/>
+<ph keyref="project"/>
         </a:argument>
       </a:arguments>
     </a:operation>

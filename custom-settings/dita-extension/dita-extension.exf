@@ -23,7 +23,7 @@
     <!-- 
       Author Actions are loaded from these directories:
       {framework_directory}/externalAuthorActions
-      framework_directory}/{framework_file_name}_externalAuthorActions
+      {framework_directory}/{framework_file_name}_externalAuthorActions
       
       https://www.oxygenxml.com/doc/versions/22.1/ug-editor/topics/dg-create-custom-actions.html#dg-create-custom-actions__section_2
     -->
