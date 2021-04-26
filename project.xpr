@@ -24,7 +24,7 @@
                         <documentTypeEntry-array>
                             <documentTypeEntry>
                                 <field name="documentTypeID">
-                                    <String>6/dita/ditamap-lw.exf/Lightweight DITA - Map</String>
+                                    <String>6/dita/ditamap-lw.framework/Lightweight DITA - Map</String>
                                 </field>
                                 <field name="enable">
                                     <Boolean>false</Boolean>
@@ -32,7 +32,7 @@
                             </documentTypeEntry>
                             <documentTypeEntry>
                                 <field name="documentTypeID">
-                                    <String>6/dita/dita-lw.exf/Lightweight DITA - Topic</String>
+                                    <String>6/dita/dita-lw.framework/Lightweight DITA - Topic</String>
                                 </field>
                                 <field name="enable">
                                     <Boolean>false</Boolean>
