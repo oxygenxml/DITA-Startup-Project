@@ -108,7 +108,7 @@
 											<Integer>7</Integer>
 										</field>
 										<field name="uri">
-											<String>${pdu}/custom-settings/dita-extension/resources/customRules.sch</String>
+											<String>${pdu}/custom-settings/frameworks/dita-extension/resources/customRules.sch</String>
 										</field>
 									</validationUnitSchema>
 								</field>
