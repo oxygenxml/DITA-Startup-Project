@@ -3,7 +3,7 @@
 <topic id="welcome">
     <title>My first topic</title>
     <body>
-        <p>Welcome to your first <ph keyref="project"/>.</p>
+        <p>Welcome to your first <ph keyref="product"/>.</p>
         <p>You can add images <image href="../images/welcome.png" id="image_j3n_cc1_bpb" width="100"
             /> or use reusable content:</p>
         <note conref="../reusables/reusable_components.dita#reusable_notes/reusable_note"
