@@ -77,6 +77,10 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.dita.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.editor.document.type.association.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
