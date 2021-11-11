@@ -6,7 +6,7 @@
   
   <deliverable name="Project to WebHelp Responsive" id="wh-responsive">
     <context idref="project"/>
-    <output href="output"/>
+    <output href="output/html"/>
     <publication transtype="webhelp-responsive">
       <param name="webhelp.publishing.template" href="publishing-template.zip"/>
     </publication>
@@ -14,7 +14,7 @@
   
   <deliverable name="Project to PDF" id="pdf">
     <context idref="project"/>
-    <output href="output"/>
+    <output href="output/pdf"/>
     <publication transtype="pdf-css-html5">
       <param name="pdf.publishing.template" href="publishing-template.zip"/>
     </publication>
