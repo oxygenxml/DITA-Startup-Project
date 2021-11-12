@@ -56,3 +56,7 @@ You can publish the content of the _project.ditamap_ in two ways:
 
 *   You can open the DITA-OT project file named _publish-project.xml_ from the _publishing_ subfolder and two predefined publishing scenarios become available. You can read more about DITA-OT project files [here in the user's manual](https://www.oxygenxml.com/doc/ug-editor/topics/dita_open_toolkit_project.html).
 *   You can also open the _project.ditamap_ file in the DITA Maps Manager view, invoke the "Configure Transformation Scenario(s)" dialog box, and in the Project section, there are two predefined transformation scenarios (one for WebHelp, the other for PDF) that use the publishing template archived in the zip file. This [past webinar](https://www.oxygenxml.com/events/2018/webinar_creating_custom_publishing_templates_for_webhelp_and_pdf_output.html) shows more details about creating and customizing a publishing template.
+
+## Webinar: Working with DITA in Oxygen - Quick start with the DITA Startup Project
+
+A past webinar recording covering all aspects of the **Startup DITA Project** is available here: [https://www.oxygenxml.com/events/2021/webinar_working_with_dita_in_oxygen_startup_project.html](https://www.oxygenxml.com/events/2021/webinar_working_with_dita_in_oxygen_startup_project.html)
